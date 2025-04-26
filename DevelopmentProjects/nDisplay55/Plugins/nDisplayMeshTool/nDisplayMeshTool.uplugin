@@ -1,0 +1,42 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "nDisplayMeshTool",
+	"Description": "Procedural nDisplay mesh creation tool",
+	"Category": "Virtual Production",
+	"CreatedBy": "Morgan Skillicorn",
+	"CreatedByURL": "https://morganskilly.com/",
+	"DocsURL": "https://github.com/MorganSkilly/nDisplayMeshTool/blob/main/README.md",
+	"MarketplaceURL": "",
+	"SupportURL": "hello@morgan.games",
+	"EngineVersion": "5.5.0",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": true,
+	"Installed": true,
+	"FabURL": "com.epicgames.launcher://ue/Fab/product/dc25d06d-98f6-48c0-8937-aec2ed615185",
+	"SupportedTargetPlatforms": [ "Win64", "Mac", "Linux" ],
+	"Modules": [
+		{
+			"Name": "nDisplayMeshTool",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [ "Win64", "Mac", "Linux" ]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "nDisplay",
+			"Enabled": true
+		},
+		{
+			"Name": "GeometryScripting",
+			"Enabled": true
+		},
+		{
+			"Name": "ProceduralMeshComponent",
+			"Enabled": true
+		}
+	]
+}
