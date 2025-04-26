@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "nDisplay55",
+			"Path": "..\\Source\\nDisplay55.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "nDisplay55Editor",
+			"Path": "..\\Source\\nDisplay55Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
